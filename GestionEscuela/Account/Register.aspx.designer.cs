@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GestionEscuela.Account {
-    
-    
-    public partial class Register {
-        
+namespace GestionEscuela.Account
+{
+
+
+    public partial class Register
+    {
+
         /// <summary>
         /// ErrorMessage control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace GestionEscuela.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal ErrorMessage;
-        
+
         /// <summary>
         /// Email control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace GestionEscuela.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Email;
-        
+
         /// <summary>
         /// Password control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace GestionEscuela.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Password;
-        
+
         /// <summary>
         /// ConfirmPassword control.
         /// </summary>
@@ -47,5 +49,68 @@ namespace GestionEscuela.Account {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox ConfirmPassword;
+
+        /// <summary>
+        /// Nombre control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Nombre;
+
+        /// <summary>
+        /// ApPaterno control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ApPaterno;
+
+        /// <summary>
+        /// ApMaterno control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ApMaterno;
+
+        /// <summary>
+        /// FechaNac control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox FechaNac;
+
+        /// <summary>
+        /// Direccion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Direccion;
+
+        /// <summary>
+        /// Telefono control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Telefono;
+
+        /// <summary>
+        /// ddlRoles control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlRoles;
     }
 }
